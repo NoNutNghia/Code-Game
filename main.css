@@ -1,0 +1,39 @@
+
+::root{
+    --button-size: 79px;
+    --button-margin: 10px; 
+    --sprite: sp: 'https://i.ibb.co/zmcMZLK/sprites1.png';
+}
+
+.control_button {
+  background: var(--sprite);
+  width: var(--button-size);
+  height: var(--button-size);
+  margin: var(--button-margin);
+  display: inline-block;
+  border-radius: 10px;
+  text-indent: -1000px;
+  cursor: pointer;
+}
+
+.clockwise {
+  background-position: 80px 0;
+}
+
+.counter_clockwise {
+  background-position: 160px 0;
+}
+
+#map td {
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+}
+
+.spaceship {
+  background: var(--sprite) 0 -80px;
+}
+
+.planet {
+  background: var(--sprite) -80px -80px;
+}
